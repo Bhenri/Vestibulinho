@@ -1,0 +1,83 @@
+body{
+	background-color: unset;
+	text-align: justify;
+}
+header{
+	background-color: white;
+	height: 172px;
+	margin-top: 2.8em;
+}
+.cabecalho{
+	width: 100%;
+	height: 3.7em;
+	background-color: red;
+	position: fixed;
+	z-index: 5
+}
+.col-sm-2{
+	height: 2.5em;
+	margin-left: 1.5rem;
+	border: solid white 2px;
+	border-radius: 39px 39px;
+	background-color: red;
+	color: white;
+}
+.carousel-inner{
+	float: center;
+}
+section{
+	top: 30px;
+}
+section#sec_1{
+
+}
+section#sec_2{
+	background-color: black;
+	width: 64%;
+	height: 900px;
+	color: white;
+}
+section#sec_3{
+	background-color: black;
+	color: white;
+	width: 64%;
+	height: 670px;
+}
+section#sec_4{
+	background-color: black;
+	color: white;
+	width: 64%;
+	height: 670px;
+}
+section#sec_5{
+	background-color: black;
+	color: white;
+	width: 64%;
+	height: 400px;
+}
+nav#menu ul li{
+	display: inline
+}
+nav#menu ul li a{
+	font-family: Arial;
+	font-size: 20 px;
+	color: #424242
+}
+nav#menu ul li a:hover{
+	color: #111
+}
+footer{
+	height: 200px;
+}
+div#background{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background: url(../IMG/fotos.jpg);
+	background-size: 30%;
+	background-position: 0px 0px;
+	opacity: .35
+}
